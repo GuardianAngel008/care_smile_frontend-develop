@@ -1,0 +1,41 @@
+@import "../../utils/variables.scss";
+.register-progress {
+  .ant-steps-item-process .ant-steps-item-container > .ant-steps-item-icon {
+    background: #22d1d1;
+    border: 1px solid #1fc2c2;
+    color: #1fc2c2;
+  }
+
+  .ant-steps-item-wait .ant-steps-item-icon > .ant-steps-icon {
+    color: #1fc2c2;
+  }
+
+  .ant-steps-item-wait .ant-steps-item-icon {
+    background-color: #fff;
+    border-color: #1fc2c2;
+  }
+
+  .ant-steps-item-finish .ant-steps-item-icon {
+    background-color: #22d1d1;
+    border-color: #1fc2c2;
+
+    svg {
+      fill: white;
+    }
+  }
+
+  .ant-steps-item-finish
+    > .ant-steps-item-container
+    > .ant-steps-item-content
+    > .ant-steps-item-title::after {
+    background-color: #f0f0f0;
+  }
+  .ant-steps-item-container {
+    display: grid;
+    justify-items: center;
+    @media only screen and (max-width: 576px) {
+      display: contents;
+      justify-items: center;
+    }
+  }
+}

@@ -1,0 +1,21 @@
+.custom-select-container {
+  .ant-select {
+    width: 100% !important;
+  }
+  .ant-select-selection-placeholder {
+    color: #012329;
+  }
+  .ant-select:not(.ant-select-customize-input) .ant-select-selector {
+    border: 1px solid #a7a7a7;
+    border-radius: 7px;
+  }
+  .ant-select-arrow {
+    top: 36%;
+    width: 21px;
+    height: 21px;
+    padding-top: 5px;
+    border-radius: 11px;
+    background-color: #1fc2c2;
+    color: white;
+  }
+}

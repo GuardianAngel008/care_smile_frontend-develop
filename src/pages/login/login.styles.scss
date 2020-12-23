@@ -1,0 +1,20 @@
+@import "../../utils/variables.scss";
+@import "../../utils/common-styles.scss";
+@import "../../utils/custom-styles.scss";
+
+.space-align-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-area {
+  padding-left: 3em;
+  padding-right: 3em;
+
+  @media only screen and (min-width: $break-lg) {
+    padding-left: 30%;
+  }
+}

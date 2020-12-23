@@ -1,0 +1,57 @@
+.visible-registration-form {
+}
+
+.hidden-registration-form {
+  display: none;
+}
+
+.consent-text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 29px 0 -5px 0px;
+}
+.upload-image {
+  width: 160px;
+  height: 160px;
+  margin: 30px;
+  .ant-upload.ant-upload-select-picture-card {
+    width: 160px;
+    height: 160px;
+    border-radius: 93px;
+    overflow: hidden;
+  }
+}
+
+.custom-datepicker {
+  width: 100%;
+  border-radius: 7px !important;
+  border: 1px solid #a7a7a7 !important;
+  .ant-picker-suffix {
+    color: #1fc2c2;
+  }
+  .ant-picker-input input::placeholder {
+    color: #012329 !important;
+  }
+}
+
+.custom-avatar-image {
+  .container {
+    border: 1px solid black;
+    width: 160px;
+    height: 160px;
+    border-radius: 80px;
+    display: flex;
+    justify-content: center;
+    .image {
+    }
+    .upload-container {
+      width: 160px;
+      height: 160px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+}
